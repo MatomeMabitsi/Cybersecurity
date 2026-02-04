@@ -10,7 +10,7 @@ My goal is to move beyond theory by building real-world skills through practical
 
 ## 👋 About Me
 
-I am a **BCom Informatics (Information Systems) graduate** with a strong technical foundation and a growing specialization in **cybersecurity and SOC operations**. I currently work in **hosting technical support**, where I gain daily exposure to real-world systems, infrastructure, and security-related issues.
+I am a **BCom Informatics (Information Systems) graduate** with a strong technical foundation and a growing specialization in **cybersecurity**.
 
 I bring a proactive mindset, strong analytical thinking, and a commitment to continuous learning—especially in Blue Team and defensive security practices.
 
