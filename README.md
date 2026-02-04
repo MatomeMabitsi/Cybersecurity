@@ -1,68 +1,118 @@
-
 # 🔐 Cybersecurity Portfolio – Matome Mabitsi
 
-Welcome to my cybersecurity portfolio repository.  
-This repository documents my **hands-on cybersecurity projects, labs, and practical learning**, with a strong focus on **SOC operations, threat detection, and defensive security**.
+Welcome to my cybersecurity portfolio repository.
 
-My goal is to move beyond theory by building real-world skills through practical investigation, log analysis, and incident response scenarios.
+This repository showcases my **hands-on cybersecurity projects, SIEM investigations, and Blue Team learning**, with a strong focus on **SOC operations, threat detection, and incident response**. All work emphasizes practical, real-world defensive security skills rather than theory.
 
 ---
 
 ## 👋 About Me
 
-I am a **BCom Informatics (Information Systems) graduate** with a strong technical foundation and a growing specialization in **cybersecurity**.
+I am a **BCom Informatics (Information Systems) graduate** with a strong foundation in IT systems and a growing specialization in **cybersecurity**.
 
-I bring a proactive mindset, strong analytical thinking, and a commitment to continuous learning—especially in Blue Team and defensive security practices.
-
----
-
-## 🧠 Cybersecurity Skills & Focus Areas
-
-### 🔎 SOC & Blue Team Fundamentals
-- SIEM concepts and log analysis
-- Alert triage and event validation
-- Incident response fundamentals
-- Cyber threat identification and attack analysis
-- Secure cybersecurity practices
-
-### 🌐 Networking & Systems
-- Network analysis tools (Wireshark, Nmap)
-- DNS management and secure email configuration
-- Linux system administration and log analysis
-- Identity and Access Management (IAM)
-- Virtualization (Hyper-V, VMware)
-
-### ☁️ Cloud & Infrastructure
-- Microsoft Azure fundamentals (AZ-900)
-- Hosting environments (shared, reseller, dedicated)
-- cPanel & WHM administration
-- Secure server and email configurations
+I bring strong analytical skills, attention to detail, and a commitment to continuous hands-on learning using industry-relevant tools.
 
 ---
 
-## 📂 Projects & Labs
+## 🎯 Portfolio Focus
 
-### 🔐 Cybersecurity Labs
-- Hands-on defensive security labs
-- Log analysis and threat investigation
-- Blue Team and SOC-focused scenarios
-- Practical exposure through platforms such as TryHackMe
+- SOC & Blue Team fundamentals  
+- SIEM log analysis and alert investigation  
+- Incident response workflows  
+- Host and network security monitoring  
+- Cloud and infrastructure security fundamentals  
 
-### 🛠 Infrastructure & Support Experience
-- Diagnosing website downtime and performance issues
-- Investigating email-related security threats
-- DNS and domain configuration
-- Linux command-line usage for troubleshooting and analysis
+This portfolio is designed to demonstrate **SOC-ready investigative thinking**.
 
 ---
 
-## 🎯 Current Focus
+## 🧰 Tools & Technologies
 
-- Strengthening SOC and Blue Team capabilities  
-- Gaining deeper experience with SIEM tools  
-- Cloud security fundamentals  
-- Incident detection, response, and escalation workflows  
-- Continuous hands-on learning through labs and projects  
+- **SIEM Platforms:** Splunk, Wazuh  
+- **Operating Systems:** Linux, Windows  
+- **Networking:** DNS, TCP/IP, traffic analysis  
+- **Security Tools:** Wireshark, Nmap, SSH  
+- **Virtualization:** Hyper-V, VMware  
+- **Cloud:** Microsoft Azure (AZ-900)  
+
+---
+
+## 🧪 SIEM Investigations
+
+This section documents **hands-on SIEM investigations** performed using industry-standard tools and SOC-style workflows.
+
+---
+
+## 📊 Splunk SIEM Investigation
+
+### Overview
+Splunk was used to ingest and analyze authentication and access logs to detect suspicious behavior and potential security incidents.
+
+### Activities Performed
+- Log ingestion and indexing  
+- SPL (Search Processing Language) queries  
+- Authentication and access log analysis  
+- Detection of brute-force and anomalous login behavior  
+- Alert creation and dashboard analysis  
+
+### Investigation Notes
+- Compared failed versus successful login attempts  
+- Identified suspicious IP addresses generating repeated failures  
+- Detected abnormal login patterns outside expected behavior  
+- Correlated events across multiple log sources to validate findings  
+- Documented results using SOC-style investigation methodology  
+
+### Evidence (Screenshots)
+![Splunk Login Failure Analysis](splunk/screenshots/login-failure-analysis.png)  
+![Splunk Suspicious IP Activity](splunk/screenshots/suspicious-ip-activity.png)  
+![Splunk Dashboard](splunk/screenshots/splunk-dashboard.png)  
+![Splunk Alert Configuration](splunk/screenshots/alert-configuration.png)  
+
+---
+
+## 🛡 Wazuh SIEM / HIDS Investigation
+
+### Overview
+Wazuh was used for **host-based intrusion detection**, security monitoring, and system integrity analysis.
+
+### Activities Performed
+- Deployment and management of Wazuh agents  
+- Host-based log collection and monitoring  
+- Security alert review and severity assessment  
+- File Integrity Monitoring (FIM)  
+- Authentication and system event analysis  
+
+### Investigation Notes
+- Investigated authentication failure and privilege escalation alerts  
+- Reviewed file integrity changes to detect unauthorized modifications  
+- Analyzed system-level security events for indicators of compromise  
+- Assessed alert severity and potential impact  
+- Documented findings and recommended response actions  
+
+### Evidence (Screenshots)
+![Wazuh Dashboard](wazuh/screenshots/wazuh-dashboard.png)  
+![Wazuh Agent Status](wazuh/screenshots/agent-status.png)  
+![Wazuh Security Alerts](wazuh/screenshots/security-alerts.png)  
+![Wazuh File Integrity Monitoring](wazuh/screenshots/file-integrity-monitoring.png)  
+
+---
+
+## 🗂 Additional Practical Experience
+
+- Blue Team defensive security labs  
+- Hosting infrastructure troubleshooting with security considerations  
+- Email security threat identification  
+- DNS and domain security management  
+- Linux command-line analysis for logs and system events  
+
+---
+
+## 🧠 SOC Learning Outcomes
+
+- Improved log analysis and investigation skills  
+- Practical experience validating and escalating alerts  
+- Stronger understanding of SIEM workflows  
+- Defensive security mindset aligned with SOC operations  
 
 ---
 
@@ -71,16 +121,19 @@ I bring a proactive mindset, strong analytical thinking, and a commitment to con
 - ISC2 Certified in Cybersecurity  
 - CompTIA Security+  
 - Microsoft Certified: Azure Fundamentals (AZ-900)  
-- Cisco Certified Support Technician (Cybersecurity)  
+- Cisco Certified Support Technician – Cybersecurity  
 
 ---
 
 ## 🔗 Connect With Me
 
-- 💼 LinkedIn: https://www.linkedin.com/in/matome-mabitsi12/
-- 🌐 Portfolio Website: https://matomemabitsi.co.za
+- **LinkedIn:** https://www.linkedin.com/in/matome-mabitsi12/  
+- **Portfolio Website:** https://matomemabitsi.co.za  
 
 ---
 
-Thank you for exploring my cybersecurity portfolio.  
-This repository reflects my commitment to building **practical, job-ready security skills** and growing into a strong SOC and defensive security professional.
+This portfolio reflects my commitment to building **job-ready SOC and cybersecurity skills** through structured investigations, real security tools, and continuous learning.
+
+---
+
+### 📌 Screenshot Paths
