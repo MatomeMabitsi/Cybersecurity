@@ -63,6 +63,7 @@ Splunk was used to ingest and analyze authentication and access logs to detect s
 - Documented results using SOC-style investigation methodology  
 
 ### Evidence (Screenshots)
+![Splunk Login Failure Analysis](img/splunk1.png) 
 ![Splunk Login Failure Analysis](splunk/screenshots/login-failure-analysis.png)  
 ![Splunk Suspicious IP Activity](splunk/screenshots/suspicious-ip-activity.png)  
 ![Splunk Dashboard](splunk/screenshots/splunk-dashboard.png)  
