@@ -132,7 +132,3 @@ Wazuh was used for **host-based intrusion detection**, security monitoring, and 
 - **Portfolio Website:** https://matomemabitsi.co.za  
 
 ---
-
-This portfolio reflects my commitment to building **job-ready SOC and cybersecurity skills** through structured investigations, real security tools, and continuous learning.
-
----
